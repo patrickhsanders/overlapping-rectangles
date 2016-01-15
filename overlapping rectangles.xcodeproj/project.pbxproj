@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA1E9F8E1C499F35008E8C0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1E9F8D1C499F35008E8C0C /* main.m */; };
+		AA1E9F961C499F48008E8C0C /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1E9F951C499F48008E8C0C /* Rectangle.m */; };
+		AA1E9F991C499F6A008E8C0C /* MyPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1E9F981C499F6A008E8C0C /* MyPoint.m */; };
+		AA1E9F9C1C49A276008E8C0C /* RectangleUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1E9F9B1C49A276008E8C0C /* RectangleUtility.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA1E9F881C499F35008E8C0C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA1E9F8A1C499F35008E8C0C /* overlapping rectangles */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "overlapping rectangles"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1E9F8D1C499F35008E8C0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA1E9F941C499F48008E8C0C /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rectangle.h; path = "overlapping rectangles/Rectangle.h"; sourceTree = "<group>"; };
+		AA1E9F951C499F48008E8C0C /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Rectangle.m; path = "overlapping rectangles/Rectangle.m"; sourceTree = "<group>"; };
+		AA1E9F971C499F6A008E8C0C /* MyPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPoint.h; sourceTree = "<group>"; };
+		AA1E9F981C499F6A008E8C0C /* MyPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPoint.m; sourceTree = "<group>"; };
+		AA1E9F9A1C49A276008E8C0C /* RectangleUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleUtility.h; sourceTree = "<group>"; };
+		AA1E9F9B1C49A276008E8C0C /* RectangleUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleUtility.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA1E9F871C499F35008E8C0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA1E9F811C499F35008E8C0C = {
+			isa = PBXGroup;
+			children = (
+				AA1E9F941C499F48008E8C0C /* Rectangle.h */,
+				AA1E9F951C499F48008E8C0C /* Rectangle.m */,
+				AA1E9F971C499F6A008E8C0C /* MyPoint.h */,
+				AA1E9F981C499F6A008E8C0C /* MyPoint.m */,
+				AA1E9F8C1C499F35008E8C0C /* overlapping rectangles */,
+				AA1E9F8B1C499F35008E8C0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA1E9F8B1C499F35008E8C0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA1E9F8A1C499F35008E8C0C /* overlapping rectangles */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA1E9F8C1C499F35008E8C0C /* overlapping rectangles */ = {
+			isa = PBXGroup;
+			children = (
+				AA1E9F8D1C499F35008E8C0C /* main.m */,
+				AA1E9F9A1C49A276008E8C0C /* RectangleUtility.h */,
+				AA1E9F9B1C49A276008E8C0C /* RectangleUtility.m */,
+			);
+			path = "overlapping rectangles";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA1E9F891C499F35008E8C0C /* overlapping rectangles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1E9F911C499F35008E8C0C /* Build configuration list for PBXNativeTarget "overlapping rectangles" */;
+			buildPhases = (
+				AA1E9F861C499F35008E8C0C /* Sources */,
+				AA1E9F871C499F35008E8C0C /* Frameworks */,
+				AA1E9F881C499F35008E8C0C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "overlapping rectangles";
+			productName = "overlapping rectangles";
+			productReference = AA1E9F8A1C499F35008E8C0C /* overlapping rectangles */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA1E9F821C499F35008E8C0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = turntotech.io;
+				TargetAttributes = {
+					AA1E9F891C499F35008E8C0C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = AA1E9F851C499F35008E8C0C /* Build configuration list for PBXProject "overlapping rectangles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA1E9F811C499F35008E8C0C;
+			productRefGroup = AA1E9F8B1C499F35008E8C0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA1E9F891C499F35008E8C0C /* overlapping rectangles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA1E9F861C499F35008E8C0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1E9F991C499F6A008E8C0C /* MyPoint.m in Sources */,
+				AA1E9F8E1C499F35008E8C0C /* main.m in Sources */,
+				AA1E9F9C1C49A276008E8C0C /* RectangleUtility.m in Sources */,
+				AA1E9F961C499F48008E8C0C /* Rectangle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA1E9F8F1C499F35008E8C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AA1E9F901C499F35008E8C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AA1E9F921C499F35008E8C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA1E9F931C499F35008E8C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA1E9F851C499F35008E8C0C /* Build configuration list for PBXProject "overlapping rectangles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1E9F8F1C499F35008E8C0C /* Debug */,
+				AA1E9F901C499F35008E8C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA1E9F911C499F35008E8C0C /* Build configuration list for PBXNativeTarget "overlapping rectangles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1E9F921C499F35008E8C0C /* Debug */,
+				AA1E9F931C499F35008E8C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA1E9F821C499F35008E8C0C /* Project object */;
+}
